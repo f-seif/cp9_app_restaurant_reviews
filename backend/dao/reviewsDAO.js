@@ -1,4 +1,4 @@
-import mongodb from "mongodb"
+const mongodb = require('mongodb');
 const ObjectId = mongodb.ObjectID
 
 let reviews

@@ -1,4 +1,4 @@
-import mongodb from "mongodb"
+const mongodb = require('mongodb');
 const ObjectId = mongodb.ObjectID
 let restaurants
 
@@ -33,7 +33,7 @@ export default class RestaurantsDAO {
     }
 
     let cursor
-    
+
     try {
       cursor = await restaurants
         .find(query)
@@ -111,6 +111,3 @@ export default class RestaurantsDAO {
     }
   }
 }
-
-
-
