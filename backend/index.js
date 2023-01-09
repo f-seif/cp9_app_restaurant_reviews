@@ -1,6 +1,6 @@
 import app from "./server.js";
-const mongodb = require('mongodb');
-const dotenv =  require( "dotenv");
+import mongodb from 'mongodb';
+import dotenv from "dotenv";
 import RestaurantsDAO from "./dao/restaurantsDAO.js";
 import ReviewsDAO from "./dao/reviewsDAO.js";
 dotenv.config()

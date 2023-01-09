@@ -1,4 +1,4 @@
-const express =require("express");
+import express from "express";
 import RestaurantsCtrl from "./restaurants.controller.js"
 import ReviewsCtrl from "./reviews.controller.js"
 
