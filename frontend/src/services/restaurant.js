@@ -1,6 +1,6 @@
 import http from "../http-common";
 
-const url = 'cp9-app-restaurant-reviews-s6oc-4e1ldmt3n-f-seif.vercel.app';
+const url = 'https://resrevback.web.app';
 
 class RestaurantDataService {
   getAll(page = 0) {
